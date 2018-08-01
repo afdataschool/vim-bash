@@ -49,16 +49,16 @@ vim a_new_file.txt
 
 Now, try and type some text. What's happening? You've seen this before in Juypter notebooks; you are currently in **normal**  (a.k.a. 'control') mode. To add text, you need to be in 'insert' or 'edit' mode.
 
-To enter 'insert' mode, type 'i'. You can now type! Add some text:
+To enter 'insert' mode, type `i`. You can now type! Add some text:
 
 ~~~
 We interrupt this program to annoy you and make things generally irritating. I'm afraid I have no choice but to sell you all for scientific experiments.
 ~~~
 
-> [random text generator for your general amusement] http://www.montypythonipsum.com/
+> [random text generator for your general amusement] (http://www.montypythonipsum.com/)
 {: .callout}
 
-How do you save your work? ctrl-s will not help you. First, you need to go back to normal: mode by pressing esc, then type:
+How do you save your work? `ctrl-s` will not help you. First, you need to go back to normal mode by pressing `esc`, then type:
 
 ~~~
 :w
@@ -72,7 +72,7 @@ Now, you can safely quit vim again:
 
 Practice this. Re-open your vim document, enter insert mode, and add some more random text. 
 
-There is also a command for saving and exiting all in one instruction. Press escape, then type:
+There is also a command for saving and exiting all in one instruction. Press `esc`, then type:
 
 ~~~
 :x
@@ -80,12 +80,12 @@ There is also a command for saving and exiting all in one instruction. Press esc
 
 Phew!
 
-You had little control over *where* your new text went in the last exercise. How do you move around in vim? In control mode, you can move one character at a time using the keys k (up), l (right), h (left), and j (down).
+You had little control over *where* your new text went in the last exercise. How do you move around in vim? In control mode, you can move one character at a time using the keys `k` (up), `l` (right), `h` (left), and `j` (down).
 
-One you are in place, type 'i' to enter insert mode on the left-hand-side of the current character. You can also type 'a' to enter insert mode on the right-hand-side (i.e. 'a'fter) the character. Try this out, and add some more text.
+One you are in place, type `i` to enter insert mode on the left-hand-side of the current character. You can also type `a` to enter insert mode on the right-hand-side (i.e. 'a'fter) the character. Try this out, and add some more text.
 
 
-(If you spend too much time working in Vim, your word documents start to accumlate random ':w' in them).
+(If you spend too much time working in Vim, your word documents start to accumlate random `:w` in them).
 
 There are lots of resources available to help you learn Vim. Vim even has its own tutorial. Exit vim, then from the shell, type:
 
@@ -97,15 +97,15 @@ There are lots of resources available to help you learn Vim. Vim even has its ow
 {: .challenge}
 
 > ## Interactive Vim instructor:
-> [open vim] https://www.openvim.com/tutorial.html
+> [open vim] (https://www.openvim.com/tutorial.html)
 {: .challenge}
 
 > ## Let's get faster!
-> [vim genius] http://www.vimgenius.com/
+> [vim genius] (http://www.vimgenius.com/)
 {: .challenge}
 
 > ## The Game
-> [vim adventures] https://vim-adventures.com/
+> [vim adventures] (https://vim-adventures.com/)
 > (you're a better gamer than me if you can work this one out).
 {: .challenge}
 
