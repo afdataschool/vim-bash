@@ -1,7 +1,7 @@
 ---
 title: "Shell Scripts"
 teaching: 30
-exercises: 15
+exercises: 60
 questions:
 - "How can I save and re-use commands?"
 objectives:
@@ -31,11 +31,11 @@ become our shell script:
 
 ~~~
 $ cd molecules
-$ nano middle.sh
+$ vim middle.sh
 ~~~
 {: .language-bash}
 
-The command `nano middle.sh` opens the file `middle.sh` within the text editor "nano"
+The command `vim middle.sh` opens the file `middle.sh` within the text editor "vim"
 (which runs within the shell).
 If the file does not exist, it will be created.
 We can use the text editor to directly edit the file -- we'll simply insert the following line:
@@ -50,8 +50,9 @@ it selects lines 11-15 of the file `octane.pdb`.
 Remember, we are *not* running it as a command just yet:
 we are putting the commands in a file.
 
-Then we save the file (`Ctrl-O` in nano),
- and exit the text editor (`Ctrl-X` in nano).
+Then we enter **normal** mode (`esc`)
+ save the file (`:w` in vim),
+ and exit the text editor (`:q` in vim).
 Check that the directory `molecules` now contains a file called `middle.sh`.
 
 Once we have saved the file,
@@ -94,11 +95,11 @@ but that would probably take longer than just retyping the command.
 Instead, let's edit `middle.sh` and make it more versatile:
 
 ~~~
-$ nano middle.sh
+$ vim middle.sh
 ~~~
 {: .language-bash}
 
-Now, within "nano", replace the text `octane.pdb` with the special variable called `$1`:
+Now, within "vim", replace the text `octane.pdb` with the special variable called `$1`:
 
 ~~~
 head -n 15 "$1" | tail -n 5
@@ -152,7 +153,7 @@ Let's fix that by using the special variables `$2` and `$3` for the
 number of lines to be passed to `head` and `tail` respectively:
 
 ~~~
-$ nano middle.sh
+$ vim middle.sh
 ~~~
 {: .language-bash}
 
@@ -199,7 +200,7 @@ but it may take the next person who reads `middle.sh` a moment to figure out wha
 We can improve our script by adding some **comments** at the top:
 
 ~~~
-$ nano middle.sh
+$ vim middle.sh
 ~~~
 {: .language-bash}
 
@@ -243,7 +244,7 @@ to handle the case of arguments containing spaces
 Here's an example:
 
 ~~~
-$ nano sorted.sh
+$ vim sorted.sh
 ~~~
 {: .language-bash}
 
@@ -364,6 +365,7 @@ The file `redo-figure-3.sh` now contains:
 After a moment's work in an editor to remove the serial numbers on the commands,
 and to remove the final line where we called the `history` command,
 we have a completely accurate record of how we created that figure.
+
 
 > ## Why Record Commands in the History Before Running Them?
 >
