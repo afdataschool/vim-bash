@@ -55,7 +55,7 @@ To enter 'insert' mode, type `i`. You can now type! Add some text:
 We interrupt this program to annoy you and make things generally irritating. I'm afraid I have no choice but to sell you all for scientific experiments.
 ~~~
 
-> [random text generator for your general amusement] (http://www.montypythonipsum.com/)
+> [random text generator for your general amusement](http://www.montypythonipsum.com/)
 {: .callout}
 
 How do you save your work? `ctrl-s` will not help you. First, you need to go back to normal mode by pressing `esc`, then type:
@@ -97,15 +97,15 @@ There are lots of resources available to help you learn Vim. Vim even has its ow
 {: .challenge}
 
 > ## Interactive Vim instructor:
-> [open vim] (https://www.openvim.com/tutorial.html)
+> [open vim](https://www.openvim.com/tutorial.html)
 {: .challenge}
 
 > ## Let's get faster!
-> [vim genius] (http://www.vimgenius.com/)
+> [vim genius](http://www.vimgenius.com/)
 {: .challenge}
 
 > ## The Game
-> [vim adventures] (https://vim-adventures.com/)
+> [vim adventures](https://vim-adventures.com/)
 > (you're a better gamer than me if you can work this one out).
 {: .challenge}
 
