@@ -1,7 +1,7 @@
 ---
 title: "Finding Things"
-teaching: 25
-exercises: 20
+teaching: 40
+exercises: 40
 questions:
 - "How can I find files?"
 - "How can I find things in files?"
@@ -33,7 +33,7 @@ we're going to be working in the writing subdirectory:
 
 ~~~
 $ cd
-$ cd Desktop/data-shell/writing
+$ cd dataschool/data-shell/writing
 $ cat haiku.txt
 ~~~
 {: .language-bash}
@@ -254,9 +254,8 @@ Miscellaneous:
 > `grep`'s real power doesn't come from its options, though; it comes from
 > the fact that patterns can include wildcards. (The technical name for
 > these is **regular expressions**, which
-> is what the "re" in "grep" stands for.) Regular expressions are both complex
-> and powerful; if you want to do complex searches, please look at the lesson
-> on [our website](http://v4.software-carpentry.org/regexp/index.html). As a taster, we can
+> is what the "re" in "grep" stands for.) Regular expressions will be covered
+> later during dataschool. As a taster, we can
 > find lines that have an 'o' in the second position like this:
 >
 > ~~~
