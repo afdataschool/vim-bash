@@ -36,7 +36,7 @@ Yay, a new file! Now, close that file. Type:
 
 Ta da! Congratulations, you've exited vim. 
 
-> [one-million-developers-exit-vim]https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/. 
+> [one-million-developers-exit-vim](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/)
 {: .callout}
 
 ### Adding content to a file in Vim.
