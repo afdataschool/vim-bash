@@ -64,6 +64,8 @@ How do you save your work? `ctrl-s` will not help you. First, you need to go bac
 :w
 ~~~
 
+(If you spend too much time working in Vim, your word documents start to accumulate random `:w` in them).
+
 Now, you can safely quit vim again:
 
 ~~~
@@ -85,7 +87,6 @@ You had little control over *where* your new text went in the last exercise. How
 One you are in place, type `i` to enter insert mode on the left-hand-side of the current character. You can also type `a` to enter insert mode on the right-hand-side (i.e. 'a'fter) the character. Try this out, and add some more text.
 
 
-(If you spend too much time working in Vim, your word documents start to accumlate random `:w` in them).
 
 There are lots of resources available to help you learn Vim. Vim even has its own tutorial. Exit vim, then from the shell, type:
 
